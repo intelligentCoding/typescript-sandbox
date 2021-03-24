@@ -16,10 +16,17 @@ axios.get(url).then(response => {
     const id = todo.id;
     const title = todo.title;
     const finished = todo.completed;
+    // the line below gives errors as it expect logTodo to receive `number`, `string`, `boolean`. 
+    // and we are sending `number`, `boolean`, `string`-----> this is beauty of typescript.
+    // logTodo(id, finished, title); 
+    logTodo(id, title, finished);
 
+});
+
+const logTodo = (id: number, title : string, completed: boolean) => {
     console.log(`
-        The Todo with ID: ${id}
-        Has a title of : ${title}
-        is it finished? ${finished}
-    `)
-})
+    The Todo with ID: ${id}
+    Has a title of : ${title}
+    is it finished? ${completed}
+`)
+}
