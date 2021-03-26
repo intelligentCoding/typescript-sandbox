@@ -41,3 +41,9 @@ let point : {x: number; y: number} = {
     y: 10
 }
 
+// function 
+//: (i: number) => void ----this is all annotation.
+const logNumber : (i: number) => void  = (i : number) => {
+    console.log(i);
+}
+
