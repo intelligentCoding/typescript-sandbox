@@ -37,3 +37,6 @@ Typescript tries to figure out what type of value a variable refers to.
 ###### modifiers
 ![image](https://user-images.githubusercontent.com/31515792/112704571-bc2cf680-8e60-11eb-9800-2cd2ace61865.png)
 
+##### Type Defination
+![image](https://user-images.githubusercontent.com/31515792/112706393-77598d80-8e69-11eb-97be-092e5c40c478.png)
+
